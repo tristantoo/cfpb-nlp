@@ -1,0 +1,48 @@
+{
+  "n_docs": 97712,
+  "n_terms": 20000,
+  "k": 20,
+  "stability_best_match_cosine": {
+    "vs_reference": [
+      0.9999999989954904,
+      0.9356302196494518,
+      0.9111923718877399
+    ],
+    "between_seeds": [
+      0.9356350774764014,
+      0.9111974667161771,
+      0.9764808761268778
+    ],
+    "mean_vs_reference": 0.9489408635108941,
+    "mean_between_seeds": 0.9411044734398187
+  },
+  "reconstruction_err": {
+    "10": 287.4351573716311,
+    "20": 278.5872096886849,
+    "30": 271.71497204353847
+  },
+  "docs_with_no_topic": 31,
+  "posthoc_topics_majority_credit_reporting": 19
+}
+ topic                 term1              term2                 term3                term4             term5                term6                term7                   term8                    term9               term10            term11                 term12
+     0              consumer                 15               section               states              1681   consumer reporting     reporting agency                  agency                reporting         1681 section   states consumer         section states
+     1              consumer             agency    consumer reporting            reporting              item                  usc        file consumer                  15 usc          reinvestigation                shall  reporting agency                     15
+     2               payment               late              creditor                error      late payment             payments        treat payment          creditor treat                usc 1666b     mailed delivered      payment late                  1666b
+     3               letters    review uploaded      uploaded letters reporting misleading   involved review    complaint falsely bureaus continuously        continuously far               far gotten      happened mailed       really sure          sure happened
+     4  accounts accordingly  accordingly avoid consumers investigate       creditors deny       credit duty    causing creditors         avoid future inaccurate inaccuracies        future litigation          deny credit   inquires update            duty report
+     5 identified inaccurate correction company  reporting correction       need reporting report identified  inaccurate accounts        accounts need        reviewing credit               correction           identified         reviewing                   need
+     6      consumer reports            consent               reports         stuff credit             stuff         report wrong        consent fraud         reports consent                 wrong 15         reports gave      gave written      purposes consumer
+     7                  debt         collection               request            reporting           provide              dispute           validation                     act                     fcra             original          creditor                 matter
+     8               30 days                 30                  days                 data             items        action stress     stress situation         taken advantage          expect accounts        unknown items     breach raises unfortunately received
+     9                 theft           identity        identity theft            inquiries        fraudulent        credit report               victim         victim identity                    items               remove          accounts                  block
+    10              payments    timely payments          error credit         consistently            timely                error                 late consistently maintained          updated records        time payments payments accounts         reflect timely
+    11               account    account account        account number               number    number account         1681 account   submitted multiple           credit report                   opened                 date    list inquiries         account credit
+    12               banking            15 code                  code            violation  credit reporting            reporting                   15       banking violation               efficiency   efficiency banking   written consent                   fair
+    13              accounts     ability obtain         obtain credit    greatly hindering       act gesture      gesture respect    deserve hopefully        hopefully letter             hurt ability    hindering getting  formally writing         letter resolve
+    14                unseen             stolen              identity   unsettling reality     stolen unseen grappling unsettling              harmony      reclaim rightfully        leaving grappling          adversaries    harmony stolen     unseen adversaries
+    15              moneyamt            balance      balance moneyamt                 bank              card              account     moneyamt balance                    told                    money                 loan              year                 called
+    16              accounts      credit report                    ve      accounts credit         fcra 605b                 605b            incorrect         listed accounts       incorrect accounts            documents              fcra           documents ve
+    17              disputes          3rd party                   3rd                party            verify     mailing disputes      disputes wasted           money mailing          refused process         wasted money  process disputes          sent personal
+    18               section    inaccurate date                  date         1681 section           15 1681               states                 1681               rights 15          violated rights                   15  removal violated         ground removal
+    19     complaint bureaus          complaint               bureaus                 data        days filed     caused concerned checked inaccuracies      thoroughly checked unfortunately inaccurate situation incredibly     data affected      ago unfortunately
+real 7.12 min

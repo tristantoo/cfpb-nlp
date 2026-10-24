@@ -1,0 +1,20 @@
+val_macroF1: 0.7606 [0.7495, 0.7712]
+test_model_macroF1: 0.7846 [0.7779, 0.7910]
+test_delta_vs_baseline: 0.6618 [0.6550, 0.6683]
+baseline_macroF1: 0.1228 [0.1225, 0.1232]
+test_weightedF1: 0.9056 [0.9028, 0.9081]
+test_accuracy: 0.9101 [0.9076, 0.9125]
+test_brier: 0.1558 [0.1527, 0.1590]
+test_ECE15: 0.0427 [0.0403, 0.0450]
+drift_TVD: 0.0536 [0.0508, 0.0564]
+S1_dedup_model_macroF1: 0.7789 [0.7721, 0.7853]
+S1_dedup_delta_vs_baseline: 0.6596 [0.6528, 0.6661]
+S2_cluster_model_macroF1: 0.7846 [0.7706, 0.7971]
+S2_cluster_delta_vs_baseline: 0.6618 [0.6465, 0.6756]
+S3_no_jan_model_macroF1: 0.7627 [0.7544, 0.7708]
+S3_no_jan_delta_vs_baseline: 0.6360 [0.6277, 0.6442]
+shuffle control: {'macroF1': np.float64(0.12531293025726753), 'random_prior_macroF1': np.float64(0.13928345772948708), 'baseline_macroF1': np.float64(0.12283781705487543), 'passes': True}
+
+real	5m24.029s
+user	0m0.030s
+sys	0m0.000s

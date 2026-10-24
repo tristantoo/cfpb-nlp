@@ -1,0 +1,82 @@
+{
+  "rescore_macroF1": 0.7851141144565,
+  "rescore_gap_vs_results_json": 0.0004904788468188537,
+  "vocab_year_tokens": [
+    "1933",
+    "1934",
+    "1962",
+    "1970",
+    "1970 37",
+    "1974",
+    "1974 15",
+    "1974 552a",
+    "1974 code",
+    "1974 federally",
+    "1974 privacy",
+    "1974 protects",
+    "1974 removing",
+    "1974 sure",
+    "1974 usc",
+    "1978",
+    "1978 12",
+    "1986",
+    "1986 26",
+    "1996",
+    "1997",
+    "1999",
+    "2000",
+    "2002",
+    "2003",
+    "2004",
+    "2007",
+    "2009",
+    "2010",
+    "2010 12",
+    "2010 shall",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+  ],
+  "n_vocab_terms_with_year_token": 151,
+  "all_macroF1": 0.7851141144565,
+  "S3_no_jan_macroF1": 0.7629519080752944,
+  "jan_only_macroF1": 0.7994315584307674,
+  "drift_TVD_train_vs_test_no_jan": 0.028781980456913957,
+  "jan_money_transfer_rows": 2562,
+  "jan_money_transfer_top_openings": {
+    "i am filing a complaint against cash app ( block , inc. ) due to inadequate cust": 983,
+    "i am writing to formally express my concerns regarding zelle 's handling of disp": 363,
+    "i am writing to formally express my concerns regarding zelles handling of disput": 111,
+    "i am filing a complaint against cash app ( block , inc ) due to inadequate custo": 67,
+    "i am to formally express my concerns regarding zelles handling of disputes, part": 50
+  },
+  "S1_exact_matches": 9726,
+  "S1b_prefix150_matches": 14156,
+  "S1b_prefix150_excluded": {
+    "n": 41974,
+    "model_macroF1": 0.7786171833108086,
+    "model_ci95": [
+      0.7717420956610715,
+      0.7855194468323279
+    ],
+    "delta_vs_baseline": 0.6621771283835912,
+    "delta_ci95": [
+      0.6552666343547944,
+      0.6691255081368197
+    ]
+  },
+  "S1b_drop_vs_rescore": 0.006496931145691387,
+  "train_texts_with_multiple_labels": 208,
+  "train_rows_in_those_texts": 5933,
+  "noncr_nmf": {
+    "n_docs": 21913,
+    "k": 12,
+    "reconstruction_err": 139.08981225020398
+  }
+}

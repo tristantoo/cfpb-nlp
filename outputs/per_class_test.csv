@@ -1,0 +1,8 @@
+class,support,precision,recall,f1,f1_ci_lo,f1_ci_hi,baseline_precision,baseline_recall,baseline_f1
+Checking or savings account,2208,0.8126,0.8265,0.8195,0.8073,0.8314,0.0000,0.0000,0.0000
+Credit card,1726,0.7404,0.6808,0.7093,0.6917,0.7253,0.0000,0.0000,0.0000
+Credit reporting or other personal consumer reports,42332,0.9336,0.9785,0.9555,0.9540,0.9569,0.7542,1.0000,0.8599
+Debt collection,4278,0.7714,0.5804,0.6624,0.6501,0.6746,0.0000,0.0000,0.0000
+"Money transfer, virtual currency, or money service",3511,0.9440,0.8308,0.8838,0.8756,0.8915,0.0000,0.0000,0.0000
+Mortgage,540,0.8780,0.8000,0.8372,0.8120,0.8608,0.0000,0.0000,0.0000
+Other,1535,0.7369,0.5420,0.6246,0.6023,0.6459,0.0000,0.0000,0.0000

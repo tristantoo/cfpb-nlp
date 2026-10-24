@@ -1,0 +1,22 @@
+subset,class,support,precision,recall,f1,f1_ci_lo,f1_ci_hi
+all,Checking or savings account,2208,0.8129,0.8247,0.8188,0.8062,0.8306
+all,Credit card,1726,0.7387,0.6813,0.7089,0.6917,0.7252
+all,Credit reporting or other personal consumer reports,42332,0.9341,0.9783,0.9557,0.9542,0.9571
+all,Debt collection,4278,0.7695,0.5837,0.6638,0.6515,0.6761
+all,"Money transfer, virtual currency, or money service",3511,0.9441,0.8365,0.8870,0.8793,0.8945
+all,Mortgage,540,0.8801,0.8019,0.8391,0.8142,0.8628
+all,Other,1535,0.7392,0.5375,0.6224,0.5993,0.6438
+S3_no_jan,Checking or savings account,1385,0.7689,0.7928,0.7807,0.7639,0.7978
+S3_no_jan,Credit card,1465,0.7441,0.6867,0.7142,0.6954,0.7327
+S3_no_jan,Credit reporting or other personal consumer reports,36379,0.9391,0.9784,0.9583,0.9569,0.9599
+S3_no_jan,Debt collection,3726,0.7744,0.5867,0.6676,0.6549,0.6809
+S3_no_jan,"Money transfer, virtual currency, or money service",949,0.8377,0.7123,0.7699,0.7478,0.7916
+S3_no_jan,Mortgage,457,0.8732,0.7987,0.8343,0.8071,0.8600
+S3_no_jan,Other,1302,0.7374,0.5284,0.6157,0.5912,0.6381
+jan_only,Checking or savings account,823,0.8904,0.8785,0.8844,0.8679,0.9001
+jan_only,Credit card,261,0.7083,0.6513,0.6786,0.6303,0.7210
+jan_only,Credit reporting or other personal consumer reports,5953,0.9052,0.9780,0.9402,0.9358,0.9443
+jan_only,Debt collection,552,0.7370,0.5634,0.6386,0.6023,0.6727
+jan_only,"Money transfer, virtual currency, or money service",2562,0.9813,0.8825,0.9293,0.9220,0.9366
+jan_only,Mortgage,83,0.9189,0.8193,0.8662,0.8029,0.9189
+jan_only,Other,233,0.7486,0.5880,0.6587,0.6062,0.7100

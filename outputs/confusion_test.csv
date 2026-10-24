@@ -1,0 +1,8 @@
+true\pred,Checking or savings account,Credit card,Credit reporting or other personal consumer reports,Debt collection,"Money transfer, virtual currency, or money service",Mortgage,Other
+Checking or savings account,1825,99,116,13,128,2,25
+Credit card,77,1175,380,46,16,2,30
+Credit reporting or other personal consumer reports,31,160,41421,560,3,31,126
+Debt collection,13,40,1659,2483,3,13,67
+"Money transfer, virtual currency, or money service",227,32,291,18,2917,2,24
+Mortgage,9,3,54,15,2,432,25
+Other,64,78,446,84,21,10,832

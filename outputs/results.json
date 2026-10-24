@@ -1,0 +1,156 @@
+{
+  "dropped_credit_or_prepaid_unsplittable": {
+    "test": 0,
+    "train": 0
+  },
+  "n_train": 97712,
+  "n_test": 56130,
+  "classes": [
+    "Checking or savings account",
+    "Credit card",
+    "Credit reporting or other personal consumer reports",
+    "Debt collection",
+    "Money transfer, virtual currency, or money service",
+    "Mortgage",
+    "Other"
+  ],
+  "test_labels_unseen_in_train": [],
+  "chosen": {
+    "C": 3.0,
+    "class_weight": null
+  },
+  "val_macroF1": {
+    "est": 0.7606244229043966,
+    "ci95": [
+      0.749522589993607,
+      0.771174077185239
+    ]
+  },
+  "vocab_size": 50000,
+  "vocab_terms_with_xx": 0,
+  "majority_class": "Credit reporting or other personal consumer reports",
+  "test_model_macroF1": {
+    "est": 0.7846236356096812,
+    "ci95": [
+      0.7779166711541343,
+      0.7910419123093378
+    ]
+  },
+  "test_delta_vs_baseline": {
+    "est": 0.6617858185548058,
+    "ci95": [
+      0.6550136414861458,
+      0.668297825161583
+    ],
+    "p_one_sided": 0.0
+  },
+  "test_n": 56130,
+  "H1_supported": true,
+  "baseline_macroF1": {
+    "est": 0.12283781705487543,
+    "ci95": [
+      0.12251290438994289,
+      0.1231663401517751
+    ]
+  },
+  "test_weightedF1": {
+    "est": 0.905579306849626,
+    "ci95": [
+      0.9028389030770776,
+      0.9081145518214506
+    ]
+  },
+  "test_accuracy": {
+    "est": 0.9101193657580616,
+    "ci95": [
+      0.9075895243185462,
+      0.9124532335649386
+    ]
+  },
+  "test_brier": {
+    "est": 0.15576751949810883,
+    "ci95": [
+      0.152681536437509,
+      0.1589791007918879
+    ]
+  },
+  "test_ECE15": {
+    "est": 0.04270652875761087,
+    "ci95": [
+      0.040324940003083655,
+      0.0450418234704152
+    ]
+  },
+  "drift_TVD": {
+    "est": 0.05358324967324356,
+    "ci95": [
+      0.05077777382791201,
+      0.05644216268070941
+    ]
+  },
+  "drift_chi2": {
+    "stat": 3157.6178498945064,
+    "df": 6,
+    "p": 0.0
+  },
+  "H2_supported": false,
+  "H3_supported": true,
+  "S1_test_rows_duplicated_in_train": 9726,
+  "S1_dedup_model_macroF1": {
+    "est": 0.7789370015068078,
+    "ci95": [
+      0.7720811992971657,
+      0.7853148605863587
+    ]
+  },
+  "S1_dedup_delta_vs_baseline": {
+    "est": 0.6596377492340397,
+    "ci95": [
+      0.6527567675412161,
+      0.6660975256075083
+    ],
+    "p_one_sided": 0.0
+  },
+  "S1_dedup_n": 46404,
+  "S1_drop": 0.0056866341028734,
+  "leakage_alarm": false,
+  "S2_n_text_clusters": 35043,
+  "S2_cluster_model_macroF1": {
+    "est": 0.7846236356096812,
+    "ci95": [
+      0.7705924705691068,
+      0.7970761707226084
+    ]
+  },
+  "S2_cluster_delta_vs_baseline": {
+    "est": 0.6617858185548058,
+    "ci95": [
+      0.6465471592698115,
+      0.6755590220980836
+    ],
+    "p_one_sided": 0.0
+  },
+  "S2_cluster_n": 56130,
+  "S3_no_jan_model_macroF1": {
+    "est": 0.762686909588055,
+    "ci95": [
+      0.7543849659869654,
+      0.7708045448613234
+    ]
+  },
+  "S3_no_jan_delta_vs_baseline": {
+    "est": 0.6359957026452696,
+    "ci95": [
+      0.6277415381510766,
+      0.6442373264599998
+    ],
+    "p_one_sided": 0.0
+  },
+  "S3_no_jan_n": 45663,
+  "shuffle_control": {
+    "macroF1": 0.12531293025726753,
+    "random_prior_macroF1": 0.13928345772948708,
+    "baseline_macroF1": 0.12283781705487543,
+    "passes": true
+  }
+}

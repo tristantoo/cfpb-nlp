@@ -1,0 +1,18 @@
+[project]
+name = "cfpb-nlp"
+version = "0.1.0"
+description = "Forward-split TF-IDF + logistic regression on CFPB complaint narratives"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.0",
+    "pyarrow>=26.0.0",
+    "pytest>=9.1.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
